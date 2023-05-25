@@ -31,11 +31,13 @@ require (
 	github.com/prometheus/client_model v0.3.0
 	github.com/prometheus/common v0.37.0
 	github.com/stretchr/testify v1.8.0
-	golang.org/x/net v0.4.0
-	golang.org/x/sys v0.3.0
+	golang.org/x/net v0.8.0
+	golang.org/x/sys v0.6.0
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
 	google.golang.org/grpc v1.51.0
 	gotest.tools/v3 v3.0.2 // indirect
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 )
+
+replace github.com/opencontainers/runc => github.com/Dragoncell/runc v0.0.0-20230525224402-f3edaa6d9dd6
